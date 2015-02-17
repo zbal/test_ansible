@@ -3,3 +3,5 @@
   tasks:
     - name: bob
       command: echo {{ a }}
+    - name: bob2
+      command: echo {{ b }}
