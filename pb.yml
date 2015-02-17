@@ -1,5 +1,5 @@
 ---
-hosts: *
-tasks:
-  - name: bob
-    ping: true
+- hosts: all
+  tasks:
+    - name: bob
+      ping: true
